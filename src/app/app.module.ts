@@ -11,11 +11,13 @@ import { MatButtonModule, MatCheckboxModule, MatDatepickerModule, MatFormFieldMo
   MatCardModule, MatIconModule, MatProgressSpinnerModule, MatDialogModule } from '@angular/material';
 import { AppComponent } from './app.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { MenuComponent } from './menu/menu.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
